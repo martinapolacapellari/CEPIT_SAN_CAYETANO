@@ -1,5 +1,10 @@
-import * as rls from "readline-sync";
-let nombre:string=" ";
+//escriba un algoritmo que lea dos numeros por teclado e imprima en consola el resultado de la suma...
 
-nombre= rls.question("ingrese su nombre:");
-console.log("usted ingreso",nombre)
+import * as rls from "readline-sync";
+let num1: number = 0;
+let num2: number = 0;
+
+num1 = rls.questionInt("ingrese el primer numero entero: ");
+num2 = rls.questionInt("ingrese el segundo numero entero: ");
+
+console.log("el resultado de la suma es", num1 + num2);
