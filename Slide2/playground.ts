@@ -1,10 +1,13 @@
-//escriba un algoritmo que lea dos numeros por teclado e imprima en consola el resultado de la suma...
-
+/*
+Volvamos a implementar el proceso que calcula
+el area de un rectangulo pero para cualquier
+base o altura
+*el usuario debe ingresar la base y la altura por el teclado
+*el area debe guardarse en una variable
+*el resultado debe ser mostrado por pantalla
+*/
 import * as rls from "readline-sync";
-let num1: number = 0;
-let num2: number = 0;
-
-num1 = rls.questionInt("ingrese el primer numero entero: ");
-num2 = rls.questionInt("ingrese el segundo numero entero: ");
-
-console.log("el resultado de la suma es", num1 + num2);
+const base: number = rls.questionInt("ingrese la base: ");
+const altura: number = rls.questionInt("ingrese la altura: ");
+const area: number = base*altura;
+console.log("el area es: ", area);
