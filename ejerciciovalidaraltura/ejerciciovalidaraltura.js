@@ -11,3 +11,7 @@ if (alturaminima <= alturadpersona) {
 else {
     console.log("lamentablemente no puede subir a la atraccion");
 }
+
+
+// Desarrolle un algoritmo que, dada una posición en una carrera se determine el tipo de medalla a entregar. Tenga en cuenta que para el primer puesto se entrega medalla de oro, segundo puesto medalla de plata y tercer puesto medalla de bronce. En caso que quede en otra posición se entrega certificado de participación.
+
